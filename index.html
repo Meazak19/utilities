@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utilities</title>
-    <link rel="icon" type="image/x-icon" href="./images/fav.png">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
 
     <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -14,6 +14,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- Bootstrap Cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -26,19 +30,20 @@
 
 <body>
 
+    <!-- Top Nav Bar -->
     <div class="container-fluid borderBottom bg-nav">
         <div class="topNav container bg-nav">
             <div>
-                <p class="mle"><i class="mle fa-solid fa-location-dot"></i> New York, 133 Pacific St</p>
-                <p class="red mle"><i class="mle fa-solid fa-phone"></i> +1 555 123-4567</p>
-                <p class="red mle"><i class="mle fa-brands fa-skype"></i> ukitcom</p>
-                <p class="red mle"><i class="mle fa-solid fa-envelope"></i> support-en@ukit.com</p>
+                <p class="gray mle mr-3"><i class="mle fa-solid fa-location-dot"></i> New York, 133 Pacific St</p>
+                <p class="gray mle mr-3"><i class="mle fa-solid fa-phone"></i> +1 555 123-4567</p>
+                <p class="gray mle mr-3"><i class="mle fa-brands fa-skype"></i> ukitcom</p>
+                <p class="gray mle"><i class="mle fa-solid fa-envelope"></i> support-en@ukit.com</p>
             </div>
             <div>
-                <i class="red mr-4 fa-brands fa-facebook-f"></i>
-                <i class="red mr-4 fa-brands fa-twitter"></i>
-                <i class="red mr-4 fa-brands fa-google-plus-g"></i>
-                <i class="red  fa-brands fa-linkedin-in"></i>
+                <i class="gray mr-4 fa-brands fa-facebook-f"></i>
+                <i class="gray mr-4 fa-brands fa-twitter"></i>
+                <i class="gray mr-4 fa-brands fa-google-plus-g"></i>
+                <i class="gray  fa-brands fa-linkedin-in"></i>
             </div>
         </div>
     </div>
@@ -47,7 +52,7 @@
 
     <div class="container-fluid borderBottom2">
         <nav class="container navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/"><i class="red fa-solid fa-square"></i> <span class="red">E</span>lite <span class="red">C</span>eilings</a>
+            <a class="navbar-brand" href="/"><i class="fa-solid fa-chart-line"></i> UTILITIES</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,28 +60,343 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                        <a class="nav-link active" href="./index.html">Home </a>
+                        <a class="nav-link active" href="./index.html">HOME </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About Us</a>
+                        <a class="nav-link" href="./about.html">ABOUT US</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="./services.html">Services </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./prices.html">Prices</a>
+                        <a class="nav-link" href="./services.html">SERVICES </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="./news.html">News </a>
+                        <a class="nav-link" href="./news.html">NEWS </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link" href="./contact.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
 
+    <!-- Banner Sec -->
+    <div class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100 " src="./images/car1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="car-text">
+                            <h5>Utilities</h5>
+                            <p>Dedicate your time to more important things — we will take care of the rest.</p>
+                            <button class="car-btn">SERVICES</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="w-100 " src="./images/car2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="car-text">
+                            <h5>Utilities</h5>
+                            <p>Dedicate your time to more important things — we will take care of the rest.</p>
+                            <button class="car-btn">SERVICES</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="car-right" aria-hidden="true"><i class="fa-solid fa-chevron-left"></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="car-right" aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- WHY CHOOSE US SEC -->
+
+    <div class="container-fluid bg-cho">
+        <div class="container bg-cho pb-cho">
+            <h3>Why choose us</h3>
+
+            <div class="chocatagories">
+                <div class="cholists">
+                    <i class="fa-solid fa-tree"></i>
+                    <h4>Punctuality
+                    </h4>
+                    <p>This is how we show our respect towards our customers in return for the time and trust they give
+                        us.
+                    </p>
+                </div>
+                <div class="cholists">
+                    <i class="fa-solid fa-truck"></i>
+                    <h4>Speed
+
+                    </h4>
+                    <p>Time is extremely precious for everybody and that is why we make sure we work as fast as we can.
+
+                    </p>
+                </div>
+                <div class="cholists">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <h4>24/7
+
+                    </h4>
+                    <p>Nights, weekends and even on holidays — we will take care of your plumbing emergencies.
+
+                    </p>
+                </div>
+                <div class="cholists">
+                    <i class="fa-solid fa-umbrella"></i>
+                    <h4>Safety
+                    </h4>
+                    <p>The safety of our clients is our number one priority. We always triple check everything.
+                        .
+                    </p>
+                </div>
+
+            </div>
+            <div class="chocatagories">
+                <div class="cholists">
+                    <i class="fa-regular fa-comments"></i>
+                    <h4>Leaks
+                    </h4>
+                    <p>Leaking faucets, broken water heaters or gas lines aren’t only a waste, but also a danger for
+                        your family. Don’t ignore them — call us.
+
+                    </p>
+                </div>
+                <div class="cholists">
+                    <i class="fa-solid fa-wrench"></i>
+                    <h4>Upgrades
+                    </h4>
+                    <p>Thinking of upgrading your plumbing system? It’s a piece of cake — we will handle it with all due
+                        professionalism
+                        .
+                    </p>
+                </div>
+                <div class="cholists">
+                    <i class="fa-solid fa-users"></i>
+                    <h4>Clogged Drains
+
+                    </h4>
+                    <p>Clogged toilets, drains, showers and sinks are giving you headaches? We are here for you: call us
+                        and we’ll fix it in no time.
+
+                    </p>
+                </div>
+                <div class="cholists">
+                    <i class="fa-solid fa-star"></i>
+                    <h4>Diagnosis and Check up
+                    </h4>
+                    <p>Our experts will thoroughly inspect your plumbing system and provide you with tips so that your
+                        plumbing system will work to its full capacity.
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <div class="container-fluid bg-ser">
+        <div class="container">
+            <h2>Services</h2>
+
+            <div class="services">
+                <div class="ser-cards">
+                    <img src="./images/ser1.jpg" alt="">
+                    <h4>Leaks</h4>
+                    <h5>
+                        from $15
+                    </h5>
+                    <p>Leaking faucets, broken water heaters or gas lines aren’t only a waste, but also a danger for
+                        your family. Don’t ignore them — call us.
+                    </p>
+                    <button>CONTACT</button>
+                </div>
+                <div class="ser-cards">
+                    <img src="./images/ser2.jpg" alt="">
+                    <h4>Installations and Upgrades</h4>
+                    <h5>
+                        from $40
+                    </h5>
+                    <p>Thinking of upgrading your plumbing system? It’s a piece of cake — we will handle it with all due
+                        professionalism.
+
+                    </p>
+                    <button>CONTACT</button>
+                </div>
+                <div class="ser-cards">
+                    <img src="./images/ser3.jpg" alt="">
+                    <h4>Clogged Drains
+                    </h4>
+                    <h5>
+                        from $20
+                    </h5>
+                    <p>Clogged toilets, drains, showers and sinks are giving you headaches? We are here for you: call us
+                        and we’ll fix it in no time.
+                    </p>
+                    <button>CONTACT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us -->
+
+    <div class="container">
+        <div class="abt">
+            <div class="abt-text">
+                <h3>About Us</h3>
+                <p class="p1">Utilities is one of the oldest and most reputable companies in New York. Created in 1993
+                    by Thomas Sterling, we have over 20 years of experience in plumbing and we can definitely say that
+                    there is nothing that we can’t fix.
+                </p>
+                <p class="p2">All we have achieved is thanks to the creativity and professionalism of our staff.
+                    Individual style and warm relationships with our customers brought us much more than just a positive
+                    reputation.
+
+                </p>
+                <p class="p3">Our mission is to bring plumbing to the next level and that is why we are using only the
+                    latest techniques and technologies as well as state-of-the-art computer systems and software that
+                    help us diagnose and solve any problem in no time.
+
+                </p>
+
+                <button class="car-btn">CONTACT</button>
+            </div>
+            <div class="abt-img">
+                <img src="./images/abtus.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Mission -->
+
+    <div class="container-fluid bg-mission">
+        <div class="container">
+            <h2>Our mission</h2>
+
+            <div class="mission-text">
+                <div class="tex1">
+                    <p>All we have achieved is thanks to the creativity and professionalism of our staff. Individual
+                        style and warm relationships with our customers brought us much more than just a positive
+                        reputation.</p>
+                </div>
+                <div class="tex1">
+                    <p>Our mission is to bring plumbing to the next level and that is why we are using only the latest
+                        techniques and technologies as well as state-of-the-art computer systems and software that help
+                        us diagnose and solve any problem in no time.</p>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <button class="car-btn ">CONTACT</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Services 2 -->
+
+    <div class="container">
+        <div class="abt">
+            <div class="abt-img">
+                <img src="./images/car1.jpg" alt="">
+            </div>
+
+            <div class="abt-text">
+                <h3>Our Services</h3>
+                <p class="p1">Utilities is one of the oldest and most reputable companies in New York. Created in 1993
+                    by Thomas Sterling, we have over 20 years of experience in plumbing and we can definitely say that
+                    there is nothing that we can’t fix.
+                </p>
+                <p class="p2">Our services:
+
+                </p>
+                <p class="p3">Emergency Services <br>
+                    Frozen Pipes <br>
+                    Diagnosis and Checkup <br>
+                    Installation and Upgrades <br>
+                    System Maintenance and Cleaning <br>
+                    Other Common Repairs <br>
+                    Clogged Drains <br>
+                    Leaks Sewage Backups <br>
+                    Damaged Sewer Lines <br>
+                    Trenchless Pipe Repair <br>
+                    Plumbing Camera Inspection <br>
+                    Sewer Line Replacement br
+                    and many more!
+
+                </p>
+
+                <button class="car-btn">CONTACT</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="container-fluid bg-footer">
+        <div class="container bg-footer">
+            <div class="footer-address">
+                <div class="footers">
+                    <h2>UTILITIES</h2>
+                    <p>We know how stressful a broken pipe in the middle of the night, clogged drains, or overflowing toilets can be. That is why our company offers 24/7 services, including weekends and holidays. Any issue will be fixed in no time. Just call us!</p>
+                </div>
+                <div class="footers">
+                    <h2>Office</h2>
+                    <p><i class="fa-solid fa-phone pb-2 pr-3"></i><span class="text-white">+1 555 123-4567</span></p>
+                    <p><i class="fa-solid fa-location-dot pb-2 pr-3"></i><span class="text-white"> New York, 15 Fulton St.</span></p>
+                    <p><i class="fa-brands fa-skype pb-2 pr-3"></i><span class="text-white"> ukitcom</span></p>
+                    <p><i class="fa-regular fa-envelope pr-3"></i><span class="text-white">support-en@ukit.com</span></p>
+                </div>
+                <div class="footers">
+                    <h2>Send us a message</h2>
+
+                    <input type="text" placeholder="EMAIL">
+                    <input type="text" placeholder="LARGE FIELD">
+                    <button class="car-btn"> &nbsp;  Send &nbsp; </button>
+                </div>
+            </div>        
+        </div>
+    </div>
+
+    <!-- COPY -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
