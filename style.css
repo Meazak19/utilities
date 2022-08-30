@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 /* NAV BAR */
 .topNav p {
-    display: inline;    
+    display: inline;
 }
 
 .topNav {
@@ -18,16 +18,16 @@ body{
     padding: 10px 0;
 }
 
-.bg-nav{
+.bg-nav {
     background-color: #e6e6e6;
     padding: 8px;
 }
 
-.mle{
+.mle {
     padding-right: 15px;
 }
 
-.gray{
+.gray {
     color: #999999;
 }
 
@@ -37,7 +37,7 @@ body{
     padding: 10px 0 !important;
 } */
 
-.navbar-brand{
+.navbar-brand {
     color: #948f95 !important;
     font-weight: bold;
     letter-spacing: 2px;
@@ -45,20 +45,37 @@ body{
     padding-top: 0 !important;
 }
 
-.navbar-nav .nav-item{
+.navbar-nav .nav-item {
     padding-left: 20px;
 }
 
-.active{
-    
+.active {
+
     color: #9bae1c !important;
 }
-a.nav-link:hover {
+
+a.nav-link:hover .bb::after {
     /* border-bottom: 1px solid #9bae1c;
     padding-bottom: 1px; */
     color: #9bae1c !important;
     transition: .5s cubic-bezier(0, 1.26, 0, 1.46);
+    opacity: 0;
 }
+
+.nav-link{
+    position: relative;
+}
+.bb::after{
+    content: " ";
+    position: absolute;
+    border: 1px solid #9bae1c;
+    width: 90%;
+    display: flex;
+    align-items: center;
+   opacity: 1;
+}
+
+
 
 
 div#navbarSupportedContent {
@@ -67,74 +84,85 @@ div#navbarSupportedContent {
 
 .container-fluid {
     width: 100%;
-     padding-right: 0 !important; 
-     padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 
-.nav-link{
+.nav-link {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 2px !important;
     transition: .5s cubic-bezier(0, 1.26, 0, 1.46);
 }
 
-.carousel-item img{
+.carousel-item img {
     max-height: 700px;
     object-fit: cover;
 }
 
 .carousel-caption {
-   
+
     position: absolute;
     right: 28%;
-    
+
     top: 25% !important;
     left: 28%;
     z-index: 10;
     color: #fff;
     text-align: center;
 }
-.car-text{
+
+.car-text {
     background: #323647e9;
     padding: 55px;
 }
+
 .carousel-caption h5 {
-font-size: 44px ;
-font-weight: bold;
+    font-size: 44px;
+    font-weight: bold;
 }
+
 .carousel-caption p {
-font-size: 16px ;
-padding: 15px 0 ;
+    font-size: 16px;
+    padding: 15px 0;
 }
-.car-btn{
+
+.car-btn {
     background-color: #9bae1c;
     padding: 16px 35px;
     border: 0;
     border-radius: 12px;
     color: #fff;
 }
-.footers .car-btn{
+
+.footers .car-btn {
     padding: 10px 30px;
 }
+
 .carousel-indicators li {
     width: 15px;
     height: 15px;
     border-radius: 50%;
 }
+
 .carousel-indicators .active {
     background-color: #9bae1c;
 }
+
 .carousel-indicators li {
-background-color: #fff;
-}
-.carousel-indicators li {
-cursor: pointer;
+    background-color: #fff;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-indicators li {
+    cursor: pointer;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
     width: 10%;
 }
+
 span.car-right {
     font-size: 29px;
     background-color: rgba(0, 0, 0, 0.514);
@@ -147,6 +175,7 @@ span.car-right {
     justify-content: center;
     align-items: center;
 }
+
 span.car-right:hover {
     background-color: #9bae1c !important;
 }
@@ -154,21 +183,24 @@ span.car-right:hover {
 
 
 /* choose sec */
-.bg-cho{
+.bg-cho {
     background-color: #e6e6e6;
 }
-.bg-cho h3{
+
+.bg-cho h3 {
     font-size: 40px;
     font-weight: 400;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 50px;
 }
-.chocatagories{
+
+.chocatagories {
     width: 100%;
     display: flex;
 }
-.cholists{
+
+.cholists {
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -176,6 +208,7 @@ span.car-right:hover {
     text-align: justify;
     padding: 0 20px 50px 20px;
 }
+
 .cholists i {
     font-size: 45px;
     background-color: #fff;
@@ -184,21 +217,26 @@ span.car-right:hover {
     padding: 60px;
     border: 1px solid #000;
 }
-.cholists h4{
+
+.cholists h4 {
     font-size: 20px;
     font-weight: bold;
     padding: 30px 0;
 }
-.cholists p{
+
+.cholists p {
     font-size: 16px;
 }
-p{
+
+p {
     margin-bottom: 0 !important;
 }
+
 .container {
     max-width: 1250px;
 }
-.pb-cho{
+
+.pb-cho {
     padding-bottom: 50px;
 }
 
@@ -211,15 +249,16 @@ p{
 
 /* Services */
 
-.bg-ser{
-    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.187) , rgba(0, 0, 0, 0.187)), url(./images/ser.jpg);
+.bg-ser {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.187), rgba(0, 0, 0, 0.187)), url(./images/ser.jpg);
     background-position: center center;
     background-size: cover;
     height: 100%;
     width: 100%;
     background-attachment: fixed;
 }
-.bg-ser h2{
+
+.bg-ser h2 {
     font-size: 40px;
     font-weight: bold;
     color: #fff;
@@ -228,12 +267,14 @@ p{
     font-size: 40px;
     text-align: center;
 }
-.services{
+
+.services {
     width: 100%;
     padding-bottom: 100px;
     display: flex;
 }
-.ser-cards{
+
+.ser-cards {
     width: 32%;
     margin: 2%;
     padding: 2px 2px 30px 2px;
@@ -241,31 +282,38 @@ p{
     background-color: #e6e6e6;
     margin-bottom: 0 !important;
 }
-.ser-cards img{
+
+.ser-cards img {
     width: 100%;
 }
-.ser-cards h4{
+
+.ser-cards h4 {
     font-size: 18px;
     font-weight: bold;
     padding: 25px 0;
 }
-.ser-cards h5{
+
+.ser-cards h5 {
     font-size: 14px;
     font-weight: bold;
     color: #948f94;
 }
-.ser-cards p{
-font-size: 14px;font-weight: lighter;
-padding: 25px 20px;
+
+.ser-cards p {
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 25px 20px;
 }
-.ser-cards button{
+
+.ser-cards button {
     background-color: transparent;
     border: 2px solid #000;
     border-radius: 12px;
     padding: 12px 25px;
-    transition:color .3s;
+    transition: color .3s;
 }
-.ser-cards button:hover{
+
+.ser-cards button:hover {
     background-color: #9bae1c;
     border: 0;
     border: 2px solid #9bae1c;
@@ -273,10 +321,12 @@ padding: 25px 20px;
     cursor: pointer;
     transition: color .3s;
 }
-.car-btn{
+
+.car-btn {
     transition: .5s;
 }
-.car-btn:hover{
+
+.car-btn:hover {
     transition: .5s;
     cursor: pointer;
 
@@ -287,34 +337,40 @@ padding: 25px 20px;
 
 
 /* ABOUT US SEC */
-.abt{
+.abt {
     width: 100%;
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.abt-text{
+
+.abt-text {
     width: 48%;
     margin: 2%;
 }
-.abt h3{
+
+.abt h3 {
     font-size: 36px;
     font-weight: 500;
     padding-bottom: 25px;
 }
-.abt .p1{
+
+.abt .p1 {
     font-size: 13px;
 }
-.abt .p2{
+
+.abt .p2 {
     font-size: 13px;
     color: #948f94;
     padding: 15px 0;
 }
-.abt .p3{
+
+.abt .p3 {
     font-size: 13px;
     padding-bottom: 20px;
 }
-.abt-img img{
+
+.abt-img img {
     width: 100%;
 }
 
@@ -325,38 +381,44 @@ padding: 25px 20px;
 /* MISSION SEC */
 
 
-.bg-mission{
-    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.187) , rgba(0, 0, 0, 0.187)), url(./images/mission.jpg);
+.bg-mission {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.187), rgba(0, 0, 0, 0.187)), url(./images/mission.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
-.bg-mission{
+
+.bg-mission {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.bg-mission h2{
+
+.bg-mission h2 {
     color: #fff;
     text-align: center;
 }
-.mission-text{
+
+.mission-text {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 30px  0;
+    padding: 30px 0;
 }
-.mission-text .tex1{
+
+.mission-text .tex1 {
     width: 45%;
     color: #fff;
     text-align: center;
 }
+
 button:focus {
     outline: 0px dotted !important;
     outline: 0px auto-webkit-focus-ring-color !important;
 }
-.abt-img{
+
+.abt-img {
     width: 50%;
 }
 
@@ -364,29 +426,34 @@ button:focus {
 
 /* FOOTER */
 
-.bg-footer{
+.bg-footer {
     background-color: #171b31;
 }
-.footer-address{
+
+.footer-address {
     width: 100%;
     display: flex;
     padding-bottom: 25px;
 }
-.footers{
+
+.footers {
     width: 32%;
     padding: 0 50px;
 }
-.footers h2{
+
+.footers h2 {
     font-size: 20px;
     padding: 30px 0;
     color: #fff;
     font-weight: 700;
 }
-.footers p{
+
+.footers p {
     font-size: 13px;
     color: #b8b899;
 }
-.footers input{
+
+.footers input {
     padding: 12px;
     margin-bottom: 10px;
     color: #fff;
@@ -398,10 +465,11 @@ button:focus {
 
 
 /* about-banner */
-.bg-abt-banner{
+.bg-abt-banner {
     background-color: #171b31;
     text-align: center;
 }
+
 .about-banner h2 {
     font-size: 40px;
     color: #fff;
@@ -424,59 +492,72 @@ button:focus {
 /*  Clients Says  */
 
 
-.clients{
+.clients {
     text-align: center;
 }
-.bg-clients{
+
+.bg-clients {
     background-color: #e6e6e6;
 }
-h2, h3 {
+
+h2,
+h3 {
     margin-bottom: 0 !important;
 }
-.client{
+
+.client {
     width: 100%;
     display: flex;
 }
-.clientLists{
-width: 32%;
-margin: 40px;
-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.253), 2px 2px 10px rgba(0, 0, 0, 0.253);
+
+.clientLists {
+    width: 32%;
+    margin: 40px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.253), 2px 2px 10px rgba(0, 0, 0, 0.253);
 }
-.clients h2{
+
+.clients h2 {
     font-size: 40px;
     color: #000;
     font-weight: 400;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.cli-bac{
+
+.cli-bac {
     background-color: #f2f2f2;
 }
-.cli-bac h3{
+
+.cli-bac h3 {
     font-size: 14px;
     font-weight: bold;
     padding: 15px 0;
 }
-.cli-bac .cp1{
+
+.cli-bac .cp1 {
     font-size: 12px;
     font-style: italic;
     padding-bottom: 10px;
 }
-.cli-bac img{
+
+.cli-bac img {
     width: 70px;
     margin-top: -30px;
     border-radius: 12px;
 }
-.cli-text{
+
+.cli-text {
     background-color: #fff;
     padding-bottom: 10px;
 }
-.cli-text p{
- font-size: 14px;
- font-style: italic;
- padding: 20px 10px;
+
+.cli-text p {
+    font-size: 14px;
+    font-style: italic;
+    padding: 20px 10px;
 }
-.client{
+
+.client {
     padding-bottom: 100px;
 }
 
@@ -484,75 +565,88 @@ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.253), 2px 2px 10px rgba(0, 0, 0, 0.253)
 
 
 
-.serv{
+.serv {
     padding-top: 100px;
-    
+
 }
 
 .abt-text {
-margin-top: 0;
+    margin-top: 0;
 }
 
-.bg-offers{
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)), url('./images/car1.jpg');
+.bg-offers {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), url('./images/car1.jpg');
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
     height: 100%;
     color: #fff;
 }
-.offf{
+
+.offf {
     width: 100%;
     display: flex;
     padding: 100px 0;
 }
-.off-gap{
+
+.off-gap {
     width: 60%;
 }
-.off-text{
+
+.off-text {
     width: 35%;
 }
-.off-text p{
+
+.off-text p {
     padding: 25px 0;
 }
 
 
-.cont{
+.cont {
     width: 100%;
     display: flex;
     padding: 50px 0;
 }
-.cont1{
+
+.cont1 {
     width: 40%;
 }
-.cont2{
+
+.cont2 {
     width: 60%;
 }
-.cont-text h3{
+
+.cont-text h3 {
     font-size: 20px;
     font-weight: bold;
     padding: 30px 0 10px 0;
 }
-.cont-text .p1{
+
+.cont-text .p1 {
     font-size: 13px;
     font-style: italic;
 }
-.cont-text .p2{
+
+.cont-text .p2 {
     font-size: 13px;
     padding: 10px 0;
-   
+
 }
-.cont-text .p3{
+
+.cont-text .p3 {
     font-size: 13px;
-    
+
 }
+
 .cont1 {
     padding-left: 0 !important;
 }
-.bg-contact{
+
+.bg-contact {
     background-color: #e6e6e6;
 }
-.maps{
+
+.maps {
     padding-bottom: 50px;
 }
 
@@ -617,53 +711,56 @@ margin-top: 0;
 
 
 
-::selection{
+::selection {
     background-color: #9bae1c;
     color: #fff;
 }
 
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
 
 ::-webkit-scrollbar-thumb {
     background: #9bae1c;
-  }
+}
 
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
+}
 
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #677413;
-  }
+}
 
-  .carousel-item img {
+.carousel-item img {
     height: 75vh;
 }
 
-.contIcons .f{
+.contIcons .f {
     background-color: #4267b2;
     color: white;
     font-size: 18px;
     padding: 12px;
     border-radius: 5px;
 }
-.contIcons .t{
+
+.contIcons .t {
     background-color: #1da1f2;
     color: white;
     font-size: 18px;
     padding: 12px;
     border-radius: 5px;
 }
-.contIcons .g{
+
+.contIcons .g {
     background-color: #dd5044;
     color: white;
     font-size: 18px;
     padding: 12px;
     border-radius: 5px;
 }
-.contIcons .l{
+
+.contIcons .l {
     background-color: #0077b5;
     color: white;
     font-size: 18px;
@@ -672,23 +769,39 @@ margin-top: 0;
 }
 
 
-  /* Media Queries */
 
-  /* MOBILE */
+
+/* Media Queries */
+
+/* MOBILE */
 @media (min-width: 300px) and (max-width: 450px) {
-    .chocatagories, .services, .abt, .mission-text, .footer-address, .client, .offf, .cont {
+
+    .chocatagories,
+    .services,
+    .abt,
+    .mission-text,
+    .footer-address,
+    .client,
+    .offf,
+    .cont {
         flex-direction: column;
     }
-    .cholists, .abt-text, .abt-img {
+
+    .cholists,
+    .abt-text,
+    .abt-img {
         width: 100%;
     }
-    .cont{
+
+    .cont {
         padding-top: 0;
     }
+
     .ser-cards {
         width: 100%;
         margin-left: 0;
     }
+
     .abt-img {
         padding-top: 50px;
     }
@@ -696,190 +809,260 @@ margin-top: 0;
     .mission-text .tex1 {
         width: 100%;
     }
+
     .bg-mission {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)), url(./images/mission.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), url(./images/mission.jpg);
         background-attachment: local;
     }
+
     .footers {
         width: 100%;
-       
+
         padding: 40px 20px;
     }
-    .ww{
+
+    .ww {
         padding-top: 0;
         padding-bottom: 50px;
     }
+
     span.car-right {
         height: 35px;
         width: 35px;
     }
+
     .carousel-indicators li {
         height: 12px;
         width: 12px;
     }
-    .bg-nav{
+
+    .bg-nav {
         display: none;
     }
+
     .carousel-caption {
         right: 5%;
         left: 5%;
     }
+
     .carousel-caption h5 {
         font-size: 34px;
     }
+
     .abt.res-abt {
         padding-top: 50px;
         padding-bottom: 50px;
         text-align: center;
     }
+
     .clientLists {
         width: 100%;
         margin: 40px 0;
     }
+
     .serv {
         padding-top: 50px;
     }
-    .services{
+
+    .services {
         padding-bottom: 70px;
     }
+
     .off-text {
         width: 100%;
         text-align: center;
     }
-    .cont2{
+
+    .cont2 {
         width: 100%;
     }
-        
+
+    .footers input {
+        width: 100%;
+    }
+
+
 }
 
-  /* TAB */
-  @media (min-width: 451px) and (max-width: 800px) {
+/* TAB */
+@media (min-width: 451px) and (max-width: 800px) {
     .carousel-caption {
         right: 18%;
         left: 18%;
     }
-    .cont1{
+
+    .footers.ff1 {
+        width: 100%;
+    }
+
+    .footers input {
+        width: 100%;
+    }
+
+    .cont1 {
         padding-top: 0 !important;
     }
-    .ww{
+
+    .ww {
         padding-top: 0;
         padding-bottom: 50px;
     }
+
     .carousel-caption h5 {
         font-size: 34px;
     }
-    .chocatagories, .services, .footer-address {
+
+    .chocatagories,
+    .services,
+    .footer-address {
         flex-wrap: wrap;
     }
+
     .cholists {
         width: 50%;
     }
+
     .services {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .ser-cards {
         width: 46%;
     }
-    .abt, .mission-text{
+
+    .abt,
+    .mission-text {
         flex-direction: column;
     }
-    .footers{
+
+    .footers {
         width: 50%;
     }
-    .abt-img{
+
+    .abt-img {
         width: 100%;
     }
-    .abt-text{
+
+    .abt-text {
         width: 100%;
     }
+
     .mission-text .tex1 {
         width: 100%;
     }
+
     .footer-address {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .footers{
+
+    .footers {
         padding: 40px 40px;
     }
-    
-    .bg-nav{
+
+    .bg-nav {
         display: none;
     }
+
     span.car-right {
         height: 38px;
         width: 38px;
     }
+
     .carousel-indicators li {
         height: 12px;
         width: 12px;
     }
-    .client{
+
+    .client {
         flex-wrap: wrap;
     }
+
     .clientLists {
         width: 100%;
         margin-top: 50px !important;
         margin: 20px;
     }
-    .ser-cards{
+
+    .ser-cards {
         margin-bottom: 20px !important;
     }
-    .offf{
+
+    .offf {
         padding: 100px 0;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
-    .bg-offers{
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)), url(./images/car1.jpg);
+
+    .bg-offers {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), url(./images/car1.jpg);
     }
+
     .off-text {
         width: 100%;
     }
-  }
+}
 
-  @media (min-width: 801px) and (max-width: 1024px) {
-    .abt{
+@media (min-width: 801px) and (max-width: 1024px) {
+    .abt {
         align-items: center;
     }
-    .client{
+
+    .chocatagories {
+        flex-wrap: wrap;
+    }
+
+    .cholists {
+        width: 50%;
+    }
+
+    .client {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .clientLists {
         width: 39%;
         height: 100%;
     }
-    .ser-cards{
+
+    .ser-cards {
         margin-bottom: 20px !important;
     }
+
     .services {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .ser-cards {
         width: 46%;
     }
-    .offf{
+
+    .offf {
         padding: 100px 0;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
-    .bg-offers{
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)), url(./images/car1.jpg);
+
+    .bg-offers {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), url(./images/car1.jpg);
     }
+
     .off-text {
         width: 100%;
     }
 
-    .topNav{
+    .topNav {
         align-items: center;
         flex-direction: column;
     }
-    .rig{
+
+    .rig {
         padding-top: 30px;
     }
-  }
+
+}
