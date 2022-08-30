@@ -33,9 +33,9 @@ body{
 
 
 
-.navbar{
+/* .navbar{
     padding: 10px 0 !important;
-}
+} */
 
 .navbar-brand{
     color: #948f95 !important;
@@ -109,10 +109,13 @@ padding: 15px 0 ;
 }
 .car-btn{
     background-color: #9bae1c;
-    padding: 18px 45px;
+    padding: 16px 35px;
     border: 0;
     border-radius: 12px;
     color: #fff;
+}
+.footers .car-btn{
+    padding: 10px 30px;
 }
 .carousel-indicators li {
     width: 15px;
@@ -159,7 +162,7 @@ span.car-right:hover {
     font-weight: 400;
     text-align: center;
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .chocatagories{
     width: 100%;
@@ -196,7 +199,7 @@ p{
     max-width: 1250px;
 }
 .pb-cho{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 
@@ -265,9 +268,18 @@ padding: 25px 20px;
 .ser-cards button:hover{
     background-color: #9bae1c;
     border: 0;
+    border: 2px solid #9bae1c;
     color: #fff;
     cursor: pointer;
     transition: color .3s;
+}
+.car-btn{
+    transition: .5s;
+}
+.car-btn:hover{
+    transition: .5s;
+    cursor: pointer;
+
 }
 
 
@@ -279,7 +291,7 @@ padding: 25px 20px;
     width: 100%;
     display: flex;
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .abt-text{
     width: 48%;
@@ -323,7 +335,7 @@ padding: 25px 20px;
 }
 .bg-mission{
     padding-top: 100px;
-    padding-bottom: 25px;
+    padding-bottom: 100px;
 }
 .bg-mission h2{
     color: #fff;
@@ -385,6 +397,226 @@ button:focus {
 
 
 
+/* about-banner */
+.bg-abt-banner{
+    background-color: #171b31;
+    text-align: center;
+}
+.about-banner h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.about-banner p {
+    font-size: 13px;
+    color: #b8b899;
+    padding: 0 20px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+/*  Clients Says  */
+
+
+.clients{
+    text-align: center;
+}
+.bg-clients{
+    background-color: #e6e6e6;
+}
+h2, h3 {
+    margin-bottom: 0 !important;
+}
+.client{
+    width: 100%;
+    display: flex;
+}
+.clientLists{
+width: 32%;
+margin: 40px;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.253), 2px 2px 10px rgba(0, 0, 0, 0.253);
+}
+.clients h2{
+    font-size: 40px;
+    color: #000;
+    font-weight: 400;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.cli-bac{
+    background-color: #f2f2f2;
+}
+.cli-bac h3{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.cli-bac .cp1{
+    font-size: 12px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.cli-bac img{
+    width: 70px;
+    margin-top: -30px;
+    border-radius: 12px;
+}
+.cli-text{
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.cli-text p{
+ font-size: 14px;
+ font-style: italic;
+ padding: 20px 10px;
+}
+.client{
+    padding-bottom: 100px;
+}
+
+
+
+
+
+.serv{
+    padding-top: 100px;
+    
+}
+
+.abt-text {
+margin-top: 0;
+}
+
+.bg-offers{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)), url('./images/car1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.offf{
+    width: 100%;
+    display: flex;
+    padding: 100px 0;
+}
+.off-gap{
+    width: 60%;
+}
+.off-text{
+    width: 35%;
+}
+.off-text p{
+    padding: 25px 0;
+}
+
+
+.cont{
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+.cont1{
+    width: 40%;
+}
+.cont2{
+    width: 60%;
+}
+.cont-text h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 0 10px 0;
+}
+.cont-text .p1{
+    font-size: 13px;
+    font-style: italic;
+}
+.cont-text .p2{
+    font-size: 13px;
+    padding: 10px 0;
+   
+}
+.cont-text .p3{
+    font-size: 13px;
+    
+}
+.cont1 {
+    padding-left: 0 !important;
+}
+.bg-contact{
+    background-color: #e6e6e6;
+}
+.maps{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ::selection{
     background-color: #9bae1c;
     color: #fff;
@@ -404,4 +636,250 @@ button:focus {
 
   ::-webkit-scrollbar-thumb:hover {
     background: #677413;
+  }
+
+  .carousel-item img {
+    height: 75vh;
+}
+
+.contIcons .f{
+    background-color: #4267b2;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.contIcons .t{
+    background-color: #1da1f2;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.contIcons .g{
+    background-color: #dd5044;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.contIcons .l{
+    background-color: #0077b5;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+
+  /* Media Queries */
+
+  /* MOBILE */
+@media (min-width: 300px) and (max-width: 450px) {
+    .chocatagories, .services, .abt, .mission-text, .footer-address, .client, .offf, .cont {
+        flex-direction: column;
+    }
+    .cholists, .abt-text, .abt-img {
+        width: 100%;
+    }
+    .cont{
+        padding-top: 0;
+    }
+    .ser-cards {
+        width: 100%;
+        margin-left: 0;
+    }
+    .abt-img {
+        padding-top: 50px;
+    }
+
+    .mission-text .tex1 {
+        width: 100%;
+    }
+    .bg-mission {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)), url(./images/mission.jpg);
+        background-attachment: local;
+    }
+    .footers {
+        width: 100%;
+       
+        padding: 40px 20px;
+    }
+    .ww{
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    span.car-right {
+        height: 35px;
+        width: 35px;
+    }
+    .carousel-indicators li {
+        height: 12px;
+        width: 12px;
+    }
+    .bg-nav{
+        display: none;
+    }
+    .carousel-caption {
+        right: 5%;
+        left: 5%;
+    }
+    .carousel-caption h5 {
+        font-size: 34px;
+    }
+    .abt.res-abt {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .clientLists {
+        width: 100%;
+        margin: 40px 0;
+    }
+    .serv {
+        padding-top: 50px;
+    }
+    .services{
+        padding-bottom: 70px;
+    }
+    .off-text {
+        width: 100%;
+        text-align: center;
+    }
+    .cont2{
+        width: 100%;
+    }
+        
+}
+
+  /* TAB */
+  @media (min-width: 451px) and (max-width: 800px) {
+    .carousel-caption {
+        right: 18%;
+        left: 18%;
+    }
+    .cont1{
+        padding-top: 0 !important;
+    }
+    .ww{
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    .carousel-caption h5 {
+        font-size: 34px;
+    }
+    .chocatagories, .services, .footer-address {
+        flex-wrap: wrap;
+    }
+    .cholists {
+        width: 50%;
+    }
+    .services {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ser-cards {
+        width: 46%;
+    }
+    .abt, .mission-text{
+        flex-direction: column;
+    }
+    .footers{
+        width: 50%;
+    }
+    .abt-img{
+        width: 100%;
+    }
+    .abt-text{
+        width: 100%;
+    }
+    .mission-text .tex1 {
+        width: 100%;
+    }
+    .footer-address {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footers{
+        padding: 40px 40px;
+    }
+    
+    .bg-nav{
+        display: none;
+    }
+    span.car-right {
+        height: 38px;
+        width: 38px;
+    }
+    .carousel-indicators li {
+        height: 12px;
+        width: 12px;
+    }
+    .client{
+        flex-wrap: wrap;
+    }
+    .clientLists {
+        width: 100%;
+        margin-top: 50px !important;
+        margin: 20px;
+    }
+    .ser-cards{
+        margin-bottom: 20px !important;
+    }
+    .offf{
+        padding: 100px 0;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .bg-offers{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)), url(./images/car1.jpg);
+    }
+    .off-text {
+        width: 100%;
+    }
+  }
+
+  @media (min-width: 801px) and (max-width: 1024px) {
+    .abt{
+        align-items: center;
+    }
+    .client{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .clientLists {
+        width: 39%;
+        height: 100%;
+    }
+    .ser-cards{
+        margin-bottom: 20px !important;
+    }
+    .services {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ser-cards {
+        width: 46%;
+    }
+    .offf{
+        padding: 100px 0;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .bg-offers{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)), url(./images/car1.jpg);
+    }
+    .off-text {
+        width: 100%;
+    }
+
+    .topNav{
+        align-items: center;
+        flex-direction: column;
+    }
+    .rig{
+        padding-top: 30px;
+    }
   }
